@@ -1,0 +1,43 @@
+@import './base.css';
+@import '__colors.scss';
+@import '__general.scss';
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+#app {
+  width: 100%;
+  margin: 0 auto;
+  font-weight: normal;
+}
+body {
+  background: #d8d4d474;
+  margin: 15px;
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+  padding: 3px;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    display: flex;
+    place-items: center;
+  }
+
+  #app {
+    padding: 0 1rem;
+    margin: 15px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

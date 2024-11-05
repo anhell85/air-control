@@ -1,0 +1,23 @@
+.flex {
+  display: flex;
+}
+.justify-between {
+  justify-content: space-between;
+}
+/* /Generales definidas */
+/* width desde 1 hata 100*/
+$i: 1;
+@while $i < 100 {
+  .w-#{$i} {
+    width: 0% + $i;
+  }
+  $i: $i + 1;
+}
+/* Margin top desde 5 hata 70*/
+$i: 5;
+@while $i < 75 {
+  .mt-#{$i} {
+    margin-top: 0px + $i;
+  }
+  $i: $i + 5;
+}

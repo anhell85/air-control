@@ -1,0 +1,14 @@
+body {
+  --power-active: #1f2933;
+  --power-off: #ffffff;
+  --power-heat: #ffc3bd;
+  --power-cool: #b3ecff;
+  --power-confort: #c6f7e5;
+  --bg-heat: radial-gradient(0% 100%, #ef694e 0%, #cf1e11 100%);
+  --bg-cool: radial-gradient(0% 100%, #40c3f7 0%, #0b69a3 100%);
+  --bg-confort: radial-gradient(3% 99%, #2dcc9a 0%, #01644f 100%);
+  --shadow-box: 0 1px 3px 0 rgba(0, 0, 0, 0.22), 0 1px 2px 0 rgba(0, 0, 0, 0.34);
+  --font-off: #7b8794;
+  --font-subtitle: #9aa5b1;
+  --font-title: #71f2933;
+}
